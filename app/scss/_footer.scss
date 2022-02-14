@@ -22,7 +22,7 @@
   }
 
   a {
-    color: $white;
+    color: $color2;
   }
 
   &__logo {
@@ -127,6 +127,14 @@
       align-self: end;
       justify-self: end;
     }
+    // &__pic {
+    //   font-size: .69rem;
+    //   color: $color4;
+    //   @include breakpoint-up(large){
+    //     grid-area: copyright;
+    //     align-self: end;
+    //     justify-self: end;
+    //   }
   }
 
 }
