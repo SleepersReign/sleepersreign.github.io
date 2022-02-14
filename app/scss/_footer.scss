@@ -1,7 +1,8 @@
 .footer {
-  background-color: $color3;
-  color: $white;
-  padding: 2.5rem;
+  // background-color: $color3;
+  background-color: $white; 
+  color: $color2;
+  padding: 2rem;
   text-align: center;
 
  
@@ -119,7 +120,8 @@
   }
   
   &__copyright {
-    font-size: .79rem;
+    font-size: .69rem;
+    color: $color4;
     @include breakpoint-up(large){
       grid-area: copyright;
       align-self: end;

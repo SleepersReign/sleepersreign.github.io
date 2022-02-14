@@ -1,9 +1,9 @@
-.hero {
+.tourdates {
   // background-color: $color3;
 
   .container{
     @include breakpoint-up(large){ //desktop activate flexbox 
-      display: flex;
+      // display: flex;
       align-items: center;
     }
   }
@@ -11,7 +11,7 @@
   &__image {
     // border: 1px solid magenta; //debug
     position: relative;
-    background-image: url('/images/hero-desktop.jpg');
+    background-image: url('/images/tourdates.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -23,11 +23,11 @@
 
     @include breakpoint-up(large){ //img hoger bij desktop
       background-size: cover;
-      flex: 5; // img is wider
+      flex: 2; // img is wider
       order: 2;
-      height: 30rem;
-      background-image: url('/images/hero-desktop.jpg');
-      // background-position: left center;
+      height: 40rem;
+      background-image: url('/images/tourdates.jpg');
+      background-position: center center;
 } 
   // @include breakpoint-up(large){ //img rechts bij desktop
     //   background-size: cover;
