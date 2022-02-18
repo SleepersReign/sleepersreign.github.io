@@ -8,32 +8,46 @@
  
   .container {
 
-    @include breakpoint-up(large) {
-      display: grid;
-      grid-template-columns: 2fr 1fr 1fr 2fr;
-      grid-template-rows: repeat(2, 1fr);
-      grid-template-areas: 
-        "logo links1 links2 cta"
-        "social links1 links2 copyright";
-      gap: 1rem;
-      justify-items: start;
-      align-items: stretch;
-    }
+    // @include breakpoint-up(large) {
+    //   display: grid;
+    //   grid-template-columns: 2fr 1fr 1fr 2fr;
+    //   grid-template-rows: repeat(2, 1fr);
+    //   grid-template-areas: 
+    //     "logo links1 links2 cta"
+    //     "social links1 links2 copyright";
+    //   gap: 1rem;
+    //   justify-items: start;
+    //   align-items: stretch;
+    // }
   }
 
   a {
     color: $color2;
   }
 
+  // &__logo {
+  //   display: inline-block;
+    
+
+  //   @include breakpoint-down(medium){
+  //     margin-bottom: 1.875rem;
+  //   }
+
+  //   @include breakpoint-up(large) {
+  //     grid-area: logo;
+  //   }
+  // }
+
   &__logo {
-    display: inline-block;
+    align-items: center;
+    
+    margin-top: 4rem; 
+    margin-bottom: 0.69rem;
+    
 
-    @include breakpoint-down(medium){
-      margin-bottom: 1.875rem;
-    }
-
-    @include breakpoint-up(large) {
-      grid-area: logo;
+    img {
+      width: 1.5rem;
+      height: 1.905rem;
     }
   }
 
@@ -120,7 +134,7 @@
   }
   
   &__copyright {
-    font-size: .69rem;
+    font-size: .6rem;
     color: $color4;
     @include breakpoint-up(large){
       grid-area: copyright;

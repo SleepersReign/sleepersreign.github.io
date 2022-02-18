@@ -35,6 +35,7 @@ h1, h2 {
   margin-top: 0px;
 }
 
+
 h1 {
   font-size: 1rem;
   margin-bottom: 1.5rem;
@@ -167,4 +168,23 @@ button, .button {
   @include breakpoint-up(large){
     display: none;
   }
+}
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
 }
