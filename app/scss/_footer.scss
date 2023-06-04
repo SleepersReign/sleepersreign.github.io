@@ -1,7 +1,7 @@
 .footer {
-  // background-color: $color3;
-  background-color: $white; 
-  color: $color2;
+  //background-color: $color1;
+  background-color: $bgcol; 
+  color: $bgcol;
   padding: 2rem;
   text-align: center;
 
@@ -44,6 +44,9 @@
     margin-top: 4rem; 
     margin-bottom: 0.69rem;
     
+    
+    path {fill: $colSRsig;}
+    
 
     img {
       width: 1.5rem;
@@ -70,11 +73,19 @@
     a {
       display: inline-block;
       height: 0.93rem;
-
+    
       // //add color change to inline svg TODO
       // svg path {transition: fill 150ms ease-in-out;}
       // &:hover svg path {fill: $color3;}
     }
+
+    path {fill: $cologo;}
+
+  //   svg {
+  //     border: 1px dotted red;
+  //     width: 100%;
+  //     display: block;
+  //  }
 
     a:not(:last-child) {
       margin-right: 1rem;

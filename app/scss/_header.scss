@@ -1,5 +1,5 @@
 .header {
-  
+  background-color: $bgcol;
   &.open { // TODO: transform into witch mark :)
     
 
@@ -23,14 +23,14 @@
     right: 0px;
     bottom: 0px;
     left: 0px;
-    // background-color: $color3;
-    background-image: linear-gradient(transparent, $color3);
+    background-color: $bgcol;
+    background-image: linear-gradient(transparent, $bgcol);
   }
 
 
   nav {
     position: relative;
-    background-color:  $white;
+    background-color:  $bgcol;
     padding-top: 1.0625rem;
     padding-bottom: 1.0625rem;
   }
@@ -46,7 +46,7 @@
       display: block;
       width: 26px;
       height: 3px;
-      background-color: $black;
+      background-color: $color4;
       transition: all 300ms ease-in-out;
       transform-origin: 3px 1px;
 
@@ -61,7 +61,7 @@
     width: calc(100% - 3rem);
     left: 50%;
     transform: translateX(-50%);
-    background: $white;
+    background: $bgcol;
     margin-top: 1.5rem;
     padding: 1.645rem;
     // border-radius: 3px;

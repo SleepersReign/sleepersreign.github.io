@@ -1,11 +1,13 @@
 // color
-$color1: hsl(0, 69%, 5%);
-$color2: hsl(6, 66%, 6%);
-$color3: hsl(0, 0%, 0%);
-$color3: hsla(0, 11%, 2%, 0.562);
-$color4: hsl(0, 0%, 52%);
+$color1: hsl(0, 100%, 50%); //highlight links
+$color2: hsl(65, 22%, 77%); //text h1 h2
+$color3: hsl(208, 40%, 76%); //h3
+$color4: hsl(191, 30%, 70%); // body, links, hamburger
 $black: hsl(0, 0%, 0%);
-$white: hsl(0, 0%, 100%);
+$bgcol: hsl(0, 0%, 4%);// background
+
+$cologo: hsl(63, 75%, 76%); // social icons
+$colSRsig: hsl(191, 20%, 40%); // SR signature
 
 // font size
 $font-sm: 0.875rem; //14 px (14/16)

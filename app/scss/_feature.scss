@@ -1,5 +1,5 @@
 .feature{
-  background-color: $color3;
+  background-color: $bgcol;
   text-align: center;
 
   @include breakpoint-up(medium){
@@ -45,7 +45,7 @@
     font-size: 1.25rem;
     font-weight: 300;
     line-height: 1.15;
-    color: $black;
+    color: $color1;
     margin-bottom: 1.5rem;
 
     @include breakpoint-up(large){

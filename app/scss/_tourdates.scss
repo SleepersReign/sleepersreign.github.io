@@ -1,5 +1,5 @@
 .tourdates {
-  // background-color: $color3;
+  background-color: $bgcol;
 
   .container{
     @include breakpoint-up(large){ //desktop activate flexbox 
